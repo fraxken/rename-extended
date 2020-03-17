@@ -1,6 +1,8 @@
 # rename-extended
+
 > !! ⚠️ WIP !!
-Rename (or Recursively moves) files and directories (replacement for npm package move-concurrently).
+
+Rename (or Recursively moves) files and directories (replacement for npm package [move-concurrently](https://github.com/npm/move-concurrently)).
 
 ## Getting Started
 
