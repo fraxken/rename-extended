@@ -1,0 +1,33 @@
+{
+  "name": "move-concurrently2",
+  "version": "1.0.0",
+  "description": "Move files and directories (replacement for npm package move-concurrently).",
+  "main": "index.js",
+  "dependencies": {
+    "copy-concurrently": "^1.0.5",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "standard": "^14.3.3",
+    "tap": "^14.10.6"
+  },
+  "files": [
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "standard && tap --coverage test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraxken/move-concurrently2.git"
+  },
+  "keywords": [
+    "move"
+  ],
+  "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraxken/move-concurrently2/issues"
+  },
+  "homepage": "https://github.com/fraxken/move-concurrently2#readme"
+}
