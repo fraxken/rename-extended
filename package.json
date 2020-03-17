@@ -1,7 +1,7 @@
 {
-  "name": "move-concurrently2",
+  "name": "rename-extended",
   "version": "1.0.0",
-  "description": "Move files and directories (replacement for npm package move-concurrently).",
+  "description": "Rename (or Recursively moves) files and directories (replacement for npm package move-concurrently).",
   "main": "index.js",
   "dependencies": {
     "copy-concurrently": "^1.0.5",

@@ -1,7 +1,7 @@
 'use strict'
 
 // Require Node.js Dependencies
-const { rename } = require('fs').promises
+const fs = require('fs').promises
 const { promisify } = require('util')
 
 // Require Third-party Dependencies
@@ -13,7 +13,7 @@ const rimrafAsync = promisify(rimraf)
 
 async function renameExtended (from, to) {
   try {
-    await rename(from, to)
+    await fs.rename(from, to)
   }
   catch (err) {
     if (err.code !== 'EXDEV') {
@@ -25,7 +25,7 @@ async function renameExtended (from, to) {
   }
 }
 
-async function move (from, to) {
+async function rename (from, to) {
   if (typeof from !== 'string') {
     throw new TypeError('Argument #1: Expected string')
   }
@@ -45,4 +45,4 @@ async function move (from, to) {
   }
 }
 
-module.exports = move
+module.exports = rename

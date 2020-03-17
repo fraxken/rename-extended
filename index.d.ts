@@ -1,3 +1,3 @@
-declare function move(from: string, to: string): Promise<void>;
+declare function rename(from: string, to: string): Promise<void>;
 
-export = move;
+export = rename;
